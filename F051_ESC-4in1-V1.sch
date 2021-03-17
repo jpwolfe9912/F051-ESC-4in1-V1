@@ -35,34 +35,34 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 603AA048
-P 1300 4350
-F 0 "J1" H 1380 4342 50  0000 L CNN
-F 1 "Conn_01x02" H 1380 4251 50  0000 L CNN
-F 2 "Connector_Wire:Conn_PowerPad" H 1300 4350 50  0001 C CNN
-F 3 "~" H 1300 4350 50  0001 C CNN
-	1    1300 4350
+P 6600 5800
+F 0 "J1" H 6680 5792 50  0000 L CNN
+F 1 "Conn_01x02" H 6680 5701 50  0000 L CNN
+F 2 "Connector_Wire:Conn_PowerPad_4in1" H 6600 5800 50  0001 C CNN
+F 3 "~" H 6600 5800 50  0001 C CNN
+	1    6600 5800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0115
 U 1 1 603AAAE6
-P 1100 4350
-F 0 "#PWR0115" H 1100 4200 50  0001 C CNN
-F 1 "VCC" H 1115 4523 50  0000 C CNN
-F 2 "" H 1100 4350 50  0001 C CNN
-F 3 "" H 1100 4350 50  0001 C CNN
-	1    1100 4350
+P 6400 5800
+F 0 "#PWR0115" H 6400 5650 50  0001 C CNN
+F 1 "VCC" H 6415 5973 50  0000 C CNN
+F 2 "" H 6400 5800 50  0001 C CNN
+F 3 "" H 6400 5800 50  0001 C CNN
+	1    6400 5800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0116
 U 1 1 603AAE97
-P 1100 4450
-F 0 "#PWR0116" H 1100 4200 50  0001 C CNN
-F 1 "GND" H 1105 4277 50  0000 C CNN
-F 2 "" H 1100 4450 50  0001 C CNN
-F 3 "" H 1100 4450 50  0001 C CNN
-	1    1100 4450
+P 6400 5900
+F 0 "#PWR0116" H 6400 5650 50  0001 C CNN
+F 1 "GND" H 6405 5727 50  0000 C CNN
+F 2 "" H 6400 5900 50  0001 C CNN
+F 3 "" H 6400 5900 50  0001 C CNN
+	1    6400 5900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -186,14 +186,14 @@ FC Connection
 Text Notes 550  1150 0    79   ~ 16
 Shunt Resistor and Input Filtering
 Wire Notes Line
-	850  4800 1950 4800
+	6150 6250 7250 6250
 Wire Notes Line
-	1950 4800 1950 3950
+	7250 6250 7250 5400
 Wire Notes Line
-	1950 3950 850  3950
+	7250 5400 6150 5400
 Wire Notes Line
-	850  3950 850  4800
-Text Notes 900  4100 0    79   ~ 16
+	6150 5400 6150 6250
+Text Notes 6200 5550 0    79   ~ 16
 Power Pads
 $Comp
 L power:VCC_Shunt #PWR0104
@@ -208,11 +208,11 @@ F 3 "" H 600 1450 50  0001 C CNN
 $EndComp
 Connection ~ 600  1450
 $Sheet
-S 1500 3350 550  300 
+S 1600 4100 550  300 
 U 60419849
 F0 "Curent Sense" 50
 F1 "CurrentSense.sch" 50
-F2 "CURR" O R 2050 3500 50 
+F2 "CURR" O R 2150 4250 50 
 $EndSheet
 $Comp
 L power:VCC_Shunt #PWR0124
@@ -225,8 +225,6 @@ F 3 "" H 2850 3550 50  0001 C CNN
 	1    2850 3550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2050 3500 2550 3500
 Wire Wire Line
 	4900 3300 5300 3300
 Wire Wire Line
@@ -327,7 +325,7 @@ L Connector_Generic:Conn_01x10 J2
 U 1 1 605EC6D1
 P 3150 4150
 F 0 "J2" H 3230 4142 50  0000 L CNN
-F 1 "Conn_01x10" H 3230 4051 50  0000 L CNN
+F 1 "Conn_01x10" H 2950 3550 50  0000 L CNN
 F 2 "Connector_JST:JST_SHL_SM10B-SHLS-TF_1x10-1MP_P1.00mm_Horizontal" H 3150 4150 50  0001 C CNN
 F 3 "~" H 3150 4150 50  0001 C CNN
 	1    3150 4150
@@ -355,10 +353,6 @@ Wire Wire Line
 Connection ~ 2850 4050
 Wire Wire Line
 	2850 4050 2850 4750
-Wire Wire Line
-	2550 4250 2950 4250
-Wire Wire Line
-	2550 3500 2550 4250
 Text Label 2950 4350 2    50   ~ 0
 PWM_1
 Text Label 2950 4450 2    50   ~ 0
@@ -705,69 +699,69 @@ Wire Notes Line
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 6052A9DD
-P 2550 5250
-F 0 "H1" V 2504 5400 50  0000 L CNN
-F 1 "MountingHole_Pad" V 2595 5400 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad" H 2550 5250 50  0001 C CNN
-F 3 "~" H 2550 5250 50  0001 C CNN
-	1    2550 5250
+P 5050 5600
+F 0 "H1" V 5004 5750 50  0000 L CNN
+F 1 "MountingHole_Pad" V 5095 5750 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4in1ESC" H 5050 5600 50  0001 C CNN
+F 3 "~" H 5050 5600 50  0001 C CNN
+	1    5050 5600
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 6052B335
-P 2550 5450
-F 0 "H2" V 2504 5600 50  0000 L CNN
-F 1 "MountingHole_Pad" V 2595 5600 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad" H 2550 5450 50  0001 C CNN
-F 3 "~" H 2550 5450 50  0001 C CNN
-	1    2550 5450
+P 5050 5800
+F 0 "H2" V 5004 5950 50  0000 L CNN
+F 1 "MountingHole_Pad" V 5095 5950 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4in1ESC" H 5050 5800 50  0001 C CNN
+F 3 "~" H 5050 5800 50  0001 C CNN
+	1    5050 5800
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 6052B821
-P 2550 5650
-F 0 "H3" V 2504 5800 50  0000 L CNN
-F 1 "MountingHole_Pad" V 2595 5800 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad" H 2550 5650 50  0001 C CNN
-F 3 "~" H 2550 5650 50  0001 C CNN
-	1    2550 5650
+P 5050 6000
+F 0 "H3" V 5004 6150 50  0000 L CNN
+F 1 "MountingHole_Pad" V 5095 6150 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4in1ESC" H 5050 6000 50  0001 C CNN
+F 3 "~" H 5050 6000 50  0001 C CNN
+	1    5050 6000
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 6052BBCA
-P 2550 5850
-F 0 "H4" V 2504 6000 50  0000 L CNN
-F 1 "MountingHole_Pad" V 2595 6000 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad" H 2550 5850 50  0001 C CNN
-F 3 "~" H 2550 5850 50  0001 C CNN
-	1    2550 5850
+P 5050 6200
+F 0 "H4" V 5004 6350 50  0000 L CNN
+F 1 "MountingHole_Pad" V 5095 6350 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4in1ESC" H 5050 6200 50  0001 C CNN
+F 3 "~" H 5050 6200 50  0001 C CNN
+	1    5050 6200
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0218
 U 1 1 6052C474
-P 2450 5950
-F 0 "#PWR0218" H 2450 5700 50  0001 C CNN
-F 1 "GND" H 2455 5777 50  0000 C CNN
-F 2 "" H 2450 5950 50  0001 C CNN
-F 3 "" H 2450 5950 50  0001 C CNN
-	1    2450 5950
+P 4950 6300
+F 0 "#PWR0218" H 4950 6050 50  0001 C CNN
+F 1 "GND" H 4955 6127 50  0000 C CNN
+F 2 "" H 4950 6300 50  0001 C CNN
+F 3 "" H 4950 6300 50  0001 C CNN
+	1    4950 6300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2450 5950 2450 5850
-Connection ~ 2450 5450
+	4950 6300 4950 6200
+Connection ~ 4950 5800
 Wire Wire Line
-	2450 5450 2450 5250
-Connection ~ 2450 5650
+	4950 5800 4950 5600
+Connection ~ 4950 6000
 Wire Wire Line
-	2450 5650 2450 5450
-Connection ~ 2450 5850
+	4950 6000 4950 5800
+Connection ~ 4950 6200
 Wire Wire Line
-	2450 5850 2450 5650
+	4950 6200 4950 6000
 Wire Wire Line
 	4900 1000 5300 1000
 Wire Wire Line
@@ -1189,4 +1183,41 @@ F 3 "~" H 9950 4050 50  0001 C CNN
 	1    9950 4050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2150 4250 2950 4250
+$Comp
+L Connector_Generic:Conn_01x10 J9
+U 1 1 6056FCA6
+P 3700 4150
+F 0 "J9" H 3780 4142 50  0000 L CNN
+F 1 "Conn_01x10" H 3500 3550 50  0000 L CNN
+F 2 "Connector_Wire:Conn_FC_Solder_10" H 3700 4150 50  0001 C CNN
+F 3 "~" H 3700 4150 50  0001 C CNN
+	1    3700 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 3750 3500 3750
+Connection ~ 2950 3750
+Wire Wire Line
+	3500 3850 2950 3850
+Connection ~ 2950 3850
+Wire Wire Line
+	2950 3950 3500 3950
+Connection ~ 2950 3950
+Wire Wire Line
+	2950 4050 3500 4050
+Connection ~ 2950 4050
+Wire Wire Line
+	2950 4250 3500 4250
+Connection ~ 2950 4250
+Wire Wire Line
+	3500 4350 2950 4350
+Wire Wire Line
+	2950 4450 3500 4450
+Wire Wire Line
+	2950 4550 3500 4550
+Wire Wire Line
+	3500 4650 2950 4650
+NoConn ~ 3500 4150
 $EndSCHEMATC
