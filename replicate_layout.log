@@ -1,0 +1,97 @@
+03-16 20:24:40 replicate_layout.action_replicate_layout 305:Plugin executed on: 'darwin'
+03-16 20:24:40 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '2.7.16 (default, May 14 2020, 09:34:58) \n[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]'
+03-16 20:24:40 replicate_layout.action_replicate_layout 307:KiCad build version: (5.1.6-0-10_14)
+03-16 20:24:40 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 70 started
+03-16 20:24:40 replicate_layout.action_replicate_layout 340:Preparing replicator with U10 as a reference
+03-16 20:24:40 replicate_layout.replicatelayout 215:getting project hierarchy from schematics
+03-16 20:24:40 replicate_layout.replicatelayout 217:Project hierarchy looks like:
+{u'605793F0': [u'MOSFET Driver 2', u'/Users/jeremywolfe/Documents/KiCAD/F051-ESC-4in1-V1/MOSFET_Driver_2.sch'], u'60419849': [u'Curent Sense', u'/Users/jeremywolfe/Documents/KiCAD/F051-ESC-4in1-V1/CurrentSense.sch'], u'60308500': [u'Power', u'/Users/jeremywolfe/Documents/KiCAD/F051-ESC-4in1-V1/Power.sch'], u'60551876': [u'sheet6055180C', u'/Users/jeremywolfe/Documents/KiCAD/F051-ESC-4in1-V1/MOSFET_Driver_3.sch'], u'6054D32F': [u'MCU 1', u'/Users/jeremywolfe/Documents/KiCAD/F051-ESC-4in1-V1/MCU_1.sch'], u'60535FFC': [u'MCU 3', u'/Users/jeremywolfe/Documents/KiCAD/F051-ESC-4in1-V1/MCU_3.sch'], u'6054D33A': [u'MOSFET Driver 1', u'/Users/jeremywolfe/Documents/KiCAD/F051-ESC-4in1-V1/MOSFET_Driver_1.sch'], u'6055186B': [u'sheet6055180B', u'/Users/jeremywolfe/Documents/KiCAD/F051-ESC-4in1-V1/MCU_3.sch'], u'60536007': [u'MOSFET Driver 3', u'/Users/jeremywolfe/Documents/KiCAD/F051-ESC-4in1-V1/MOSFET_Driver_3.sch'], u'605793E5': [u'MCU 2', u'/Users/jeremywolfe/Documents/KiCAD/F051-ESC-4in1-V1/MCU_2.sch']}
+03-16 20:24:40 replicate_layout.replicatelayout 225:getting a list of all footprints on board
+03-16 20:24:40 replicate_layout.action_replicate_layout 367:source anchor footprint is u'U10'
+Located on:[u'MOSFET Driver 3']
+With filenames:[u'MOSFET_Driver_3.sch']
+With sheet_id:[u'MOSFET Driver 3']
+03-16 20:24:40 replicate_layout.action_replicate_layout 371:Corresponding footprints are 
+[(u'U12', [u'sheet6055180C']), (u'U10', [u'MOSFET Driver 3'])]
+03-16 20:24:40 replicate_layout.action_replicate_layout 384:Showing dialog
+03-16 20:24:40 replicate_layout.action_replicate_layout 388:Pcbnew position: wx.Point(1440, 25)
+03-16 20:24:40 replicate_layout.action_replicate_layout 394:Display 0: wx.Rect(0, 0, 1440, 900)
+03-16 20:24:40 replicate_layout.action_replicate_layout 394:Display 1: wx.Rect(1440, 0, 1920, 1080)
+03-16 20:24:40 replicate_layout.action_replicate_layout 398:Toolbar position: wx.Point(3154, 125)
+03-16 20:24:40 replicate_layout.action_replicate_layout 405:Dialog position: wx.Point(2841, 125)
+03-16 20:24:42 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'MOSFET Driver 3', file:u'MOSFET_Driver_3.sch'
+03-16 20:24:42 replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'MOSFET Driver 3']
+03-16 20:24:42 replicate_layout.replicatelayout 260:Footprints on the sheets:
+[u'U12', u'U10']
+03-16 20:24:42 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+[u'/60551876/6057ED64', u'/60536007/6057ED64']
+03-16 20:24:42 replicate_layout.replicatelayout 279:All sheets to replicate:
+[[u'sheet6055180C'], [u'MOSFET Driver 3']]
+03-16 20:24:42 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[[u'MOSFET Driver 3'], [u'sheet6055180C']]
+03-16 20:24:42 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[[u'sheet6055180C']]
+03-16 20:24:46 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'MOSFET Driver 3', file:u'MOSFET_Driver_3.sch'
+03-16 20:24:46 replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'MOSFET Driver 3']
+03-16 20:24:46 replicate_layout.replicatelayout 260:Footprints on the sheets:
+[u'U12', u'U10']
+03-16 20:24:46 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+[u'/60551876/6057ED64', u'/60536007/6057ED64']
+03-16 20:24:46 replicate_layout.replicatelayout 279:All sheets to replicate:
+[[u'sheet6055180C'], [u'MOSFET Driver 3']]
+03-16 20:24:46 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[[u'MOSFET Driver 3'], [u'sheet6055180C']]
+03-16 20:24:46 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[[u'sheet6055180C']]
+03-16 20:24:46 replicate_layout.action_replicate_layout 179:Replicating layout
+03-16 20:24:46 replicate_layout.replicatelayout 994:Starting replication of sheets: [[u'sheet6055180C']]
+on level: [u'MOSFET Driver 3']
+with tracks=True, zone=True, text=True, containing=False, remove=True, locked=False
+03-16 20:24:46 root 261:updating GUI message: 'Preparing for replication'
+03-16 20:24:46 replicate_layout.replicatelayout 556:Getting the list of source footprints
+03-16 20:24:46 root 266:updating GUI with: 0
+03-16 20:24:46 replicate_layout.replicatelayout 560:Getting the list of all the remaining footprints
+03-16 20:24:46 replicate_layout.replicatelayout 564:Getting nets local to source footprints
+03-16 20:24:46 replicate_layout.replicatelayout 568:Getting source bounding box
+03-16 20:24:46 root 266:updating GUI with: 37
+03-16 20:24:46 replicate_layout.replicatelayout 572:Getting source tracks
+03-16 20:24:46 replicate_layout.replicatelayout 576:Getting source zones
+03-16 20:24:46 root 266:updating GUI with: 62
+03-16 20:24:46 replicate_layout.replicatelayout 580:Getting source text items
+03-16 20:24:46 replicate_layout.replicatelayout 584:Getting source text items
+03-16 20:24:46 replicate_layout.replicatelayout 1022:Removing tracks and zones, before module placement
+03-16 20:24:46 root 261:updating GUI message: 'Removing zones and tracks'
+03-16 20:24:46 root 266:updating GUI with: 0
+03-16 20:24:46 root 261:updating GUI message: 'Replicating footprints'
+03-16 20:24:46 root 266:updating GUI with: 0
+03-16 20:24:46 replicate_layout.replicatelayout 590:Replicating footprints
+03-16 20:24:46 root 266:updating GUI with: 0
+03-16 20:24:46 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet6055180C']
+03-16 20:24:46 root 266:updating GUI with: 44
+03-16 20:24:46 root 266:updating GUI with: 75
+03-16 20:24:46 root 266:updating GUI with: 80
+03-16 20:24:46 replicate_layout.replicatelayout 1030:Removing tracks and zones, after module placement
+03-16 20:24:46 root 261:updating GUI message: 'Removing zones and tracks'
+03-16 20:24:46 root 266:updating GUI with: 0
+03-16 20:24:46 root 266:updating GUI with: 0
+03-16 20:24:46 root 261:updating GUI message: 'Replicating tracks'
+03-16 20:24:46 root 266:updating GUI with: 0
+03-16 20:24:46 replicate_layout.replicatelayout 720:Replicating tracks
+03-16 20:24:46 root 266:updating GUI with: 0
+03-16 20:24:46 replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet6055180C']
+03-16 20:24:46 root 266:updating GUI with: 0
+03-16 20:24:46 root 261:updating GUI message: 'Replicating zones'
+03-16 20:24:46 replicate_layout.replicatelayout 771:Replicating zones
+03-16 20:24:46 root 266:updating GUI with: 0
+03-16 20:24:46 replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet6055180C']
+03-16 20:24:46 root 266:updating GUI with: 25
+03-16 20:24:46 root 261:updating GUI message: 'Replicating text'
+03-16 20:24:46 replicate_layout.replicatelayout 837:Replicating text
+03-16 20:24:46 root 266:updating GUI with: 0
+03-16 20:24:47 replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet6055180C']
+03-16 20:24:47 root 261:updating GUI message: 'Replicating drawings'
+03-16 20:24:47 replicate_layout.replicatelayout 868:Replicating drawings
+03-16 20:24:47 root 266:updating GUI with: 0
+03-16 20:24:47 replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet6055180C']
+03-16 20:24:47 root 261:updating GUI message: 'Removing duplicates'
+03-16 20:24:47 replicate_layout.action_replicate_layout 201:Replication complete
