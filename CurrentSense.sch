@@ -110,8 +110,6 @@ F 3 "" H 4450 3900 50  0001 C CNN
 	1    4450 3900
 	1    0    0    -1  
 $EndComp
-Text Notes 4050 4550 0    50   ~ 0
-Using equation: V_out = I_s * R_s * (1000uA/V) * R_L\n3V = (50A)(1m)(1000uA/V)(60k)
 Wire Wire Line
 	5950 3800 5600 3800
 Connection ~ 5600 3800
@@ -204,7 +202,7 @@ L Device:R_Small R1
 U 1 1 6046BF89
 P 4750 3800
 F 0 "R1" H 4600 3750 50  0000 L CNN
-F 1 "0m30" H 4500 3850 50  0000 L CNN
+F 1 "0m50" H 4500 3850 50  0000 L CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" H 4750 3800 50  0001 C CNN
 F 3 "~" H 4750 3800 50  0001 C CNN
 	1    4750 3800
