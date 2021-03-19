@@ -1056,7 +1056,7 @@ Wire Notes Line
 Wire Notes Line
 	11150 5100 11150 2850
 Text Notes 7700 3100 0    157  ~ 31
-Motor 3
+Motor 4
 Wire Wire Line
 	8500 4950 10300 4950
 Wire Wire Line
